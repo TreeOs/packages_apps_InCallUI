@@ -64,7 +64,6 @@ public class ProximitySensor implements AccelerometerListener.ChangeListener,
     private boolean mDialpadVisible;
     private Context mContext;
 
-    private Context mContext;
     private final Handler mHandler = new Handler();
     private final Runnable mActivateSpeaker = new Runnable() {
         @Override
